@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:375px;
+    box-sizing: border-box;
+    /* border-radius: 10px solid rgb(215, 60, 60); */
+    box-shadow: 0px 2px 5px 7px rgba(0, 0, 0, 0.067);
+    margin:auto;
+
+    background-color: white;
+    
+}
+.container1 > img{
+    width:100%;
+    height:auto;
+    
+
+}
+.container2{
+    margin: 30px;
+}
+.container2 > p{
+    line-height:1.3rem;
+    padding-top: 10px;
+}
+.container3{
+    margin: 30px;
+    background-color:bisque;
+    height:170px;
+    border-radius: 10px;
+}
+.container3 >li{
+    margin:10px;
+    margin-left: 20px;
+}
+.container3 >h3{
+    padding:15px;
+}
+.container4{
+    margin: 30px;
+}
+.container4 > h2{
+    color:crimson;
+}
+.container4 >li{
+    margin:15px;
+    line-height: 1.2rem;
+}
+.container5 > h2{
+    color:crimson;
+    margin-left:30px;
+}
+.container5 > ul{
+    margin-left:10px;
+    margin-left:60px;
+    padding:10px;
+}
+.container5 > ul > ol > li::marker {
+    color: crimson; /* Change this to your desired number color */
+}
+.container5 > ul >ol >li{
+    padding:5px;
+    
+}
+.container6{
+    margin:  30px;
+   
+}
+.container6 > h2{
+    color:crimson;
+
+}
+.container6 > p{
+    margin-top:20px;
+ 
+}
+.item {
+    /* display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    /* margin:10px; */
+}
+.nuts,.grams{
+/* text-align: left;
+padding: 20px; */
+display: inline-block;
+    
+}
+hr{
+    border:0.5px solid rgba(128, 128, 128, 0.217) ;
+
+}
+.line{
+   border:0.5px solid rgba(128, 128, 128, 0.217) ;
+    margin:25px;
+}
+
+@media (max-width:1440px) {
+   
+     .container{
+        max-width: 655px;
+        background-color: white;
+        border-radius: 15px;
+        /* margin:15px; */
+        
+    } 
+    .container1 > img{
+  
+        padding:30px; 
+        border-radius: 40px;
+    } 
+
+} 
+@media(max-width:375px){
+    .container{
+        max-width:375px;
+    }
+     .container1 > img{
+        /* max-width:375px;
+        height:170px; */
+        padding:0;
+        margin:0;
+        border-radius:0px;
+    
+    } 
+}
